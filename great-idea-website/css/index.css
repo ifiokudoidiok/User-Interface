@@ -66,5 +66,40 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
+	justify-content: center;
+}
+
+header {
+	width: 100%;
+	color: grey;
+    padding: 0px 5px 25px 50px;
+    margin: 0px 5px 25px 0px;
+	border: 10px solid black;
+	/* vertical-align: 100px; */
+	background-color:gold;
 	
+	
+    
+}
+
+nav {
+	display: inline;
+	left: 20px;
+	text-align: center;
+	 
+}
+
+nav a {
+    text-align: center;
+	margin: auto;
+	display: inline-block;
+  	font-size: 14px;
+	padding-top: 15px;
+	padding-left: 155px;
+	width: 100px;
+	  
+
+.logo {
+	position: relative;
+	right: -40px;
 }
