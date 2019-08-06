@@ -83,23 +83,143 @@ header {
 }
 
 nav {
-	display: inline;
-	left: 20px;
+	display: inline-block;
+	left: 200px;
 	text-align: center;
 	 
 }
 
 nav a {
-    text-align: center;
-	margin: auto;
+	text-align: center;
+	margin-right: -40px; 
+	
 	display: inline-block;
   	font-size: 14px;
 	padding-top: 15px;
 	padding-left: 155px;
 	width: 100px;
 	  
-
+}
 .logo {
 	position: relative;
-	right: -40px;
+	right: -140px;
+	top: 10px;
+}
+
+.title-txt {
+	box-sizing: border-box;
+	width: 80%;
+	height: 100px;
+	color: grey;
+    padding: 20px 5px 10px 50px;
+    margin: 50px 5px 25px 250px;
+	border: 10px solid black;
+	/* vertical-align: 100px; */
+	background-color:burlywood;
+	display: inline-block;
+	font-size: 80px;
+	
+	
+	
+}
+#get-started {
+	font-size: 18px;
+	position: relative;
+	top: -50px;
+	left: 30px;
+	background-color: yellow;
+	border: 2px solid grey;
+	margin: 50px 5px 25px 25px;
+	padding: 10px 0px 10px 0px;
+	width: 180px;
+	text-align: center;
+}
+
+.header-img {
+	position: relative;
+	top: -380px; 
+	right: -710px;
+	
+	
+}
+.mid-img {
+	width: 60%;
+	
+    padding: 10px 5px 0px 0px;
+    margin: -120px 5px 25px 200px;
+	border: 10px solid black;
+	/* vertical-align: 100px; */
+	
+	
+}
+.features {
+	background-color: pink;
+	padding: -10px 50px 250px 500px;
+	 margin: -280px 5px 25px 200px; 
+	border: 10px solid black;
+	width: 450px;
+	
+	
+	
+	
+	}
+.about {
+	background-color: pink;
+	padding: -10px 50px 25px 500px;
+	/*margin: -100px 5px 25px 200px;  */
+	border: 10px solid black;
+	width: 450px;
+	top: -140px; 
+	right: -650px;
+	 position: relative;
+	
+	}
+
+.services {
+	background-color: pink;
+	padding: -10px 50px 250px 500px;
+	margin: -10px 5px 25px 200px; 
+	border: 10px solid black;
+	width: 300px;
+	}
+
+.product {
+background-color: pink;
+	padding: -10px 50px 25px 500px;
+	/*margin: -100px 5px 25px 200px;  */
+	border: 10px solid black;
+	width: 300px;
+	top: -172px; 
+	right: -500px;
+	 position: relative;
+}
+
+.vision {
+	background-color: pink;
+	padding: -10px 50px 25px 500px;
+	/*margin: -100px 5px 25px 200px;  */
+	border: 10px solid black;
+	width: 300px;
+	top: -320px; 
+	left: 800px;
+	 position: relative;
+}
+
+.contact {
+	width: 500px;
+    height: 50px;
+    
+    position: relative;
+    top: -230px;
+    right: -220px; 
+}
+
+footer {
+	width: 500px;
+    height: 50px;
+    font-size: 13px;
+    position: relative;
+    top: -80px;
+    right: -580px; 
+} 
 }
