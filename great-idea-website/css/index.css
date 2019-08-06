@@ -74,9 +74,9 @@ header {
 	color: grey;
     padding: 0px 5px 25px 50px;
     margin: 0px 5px 25px 0px;
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	/* vertical-align: 100px; */
-	background-color:gold;
+	
 	
 	
     
@@ -113,9 +113,9 @@ nav a {
 	color: grey;
     padding: 20px 5px 10px 50px;
     margin: 50px 5px 25px 250px;
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	/* vertical-align: 100px; */
-	background-color:burlywood;
+	
 	display: inline-block;
 	font-size: 80px;
 	
@@ -127,7 +127,7 @@ nav a {
 	position: relative;
 	top: -50px;
 	left: 30px;
-	background-color: yellow;
+	
 	border: 2px solid grey;
 	margin: 50px 5px 25px 25px;
 	padding: 10px 0px 10px 0px;
@@ -147,16 +147,16 @@ nav a {
 	
     padding: 10px 5px 0px 0px;
     margin: -120px 5px 25px 200px;
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	/* vertical-align: 100px; */
 	
 	
 }
 .features {
-	background-color: pink;
+	
 	padding: -10px 50px 250px 500px;
 	 margin: -280px 5px 25px 200px; 
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	width: 450px;
 	
 	
@@ -164,10 +164,10 @@ nav a {
 	
 	}
 .about {
-	background-color: pink;
+	
 	padding: -10px 50px 25px 500px;
 	/*margin: -100px 5px 25px 200px;  */
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	width: 450px;
 	top: -140px; 
 	right: -650px;
@@ -176,18 +176,18 @@ nav a {
 	}
 
 .services {
-	background-color: pink;
+	
 	padding: -10px 50px 250px 500px;
 	margin: -10px 5px 25px 200px; 
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	width: 300px;
 	}
 
 .product {
-background-color: pink;
+
 	padding: -10px 50px 25px 500px;
 	/*margin: -100px 5px 25px 200px;  */
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	width: 300px;
 	top: -172px; 
 	right: -500px;
@@ -195,10 +195,10 @@ background-color: pink;
 }
 
 .vision {
-	background-color: pink;
+	
 	padding: -10px 50px 25px 500px;
 	/*margin: -100px 5px 25px 200px;  */
-	border: 10px solid black;
+	border: 10px solid rgba(0, 0, 0, 0);
 	width: 300px;
 	top: -320px; 
 	left: 800px;
@@ -222,4 +222,4 @@ footer {
     top: -80px;
     right: -580px; 
 } 
-}
+
